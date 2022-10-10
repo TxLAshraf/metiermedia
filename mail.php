@@ -29,3 +29,4 @@ echo "Your mail has been sent successfuly ! Thank you for your feedback";
 }
 }
 ?>
+<!-- mail .php in changes -->
