@@ -1,0 +1,114 @@
+
+.client-page-banner-container{
+    background-image: url(../images/client-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 350px;
+    margin-bottom: 80px;
+}
+
+.clients-page-container{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.clients-page-heading{
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.clients-page-text{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.client-bg-container{
+    background-color: #f0f0f0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.clients-page-bg-container{
+    width: 80%;
+    margin: auto;
+}
+.client-bg-heading{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.client-bg-text{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.client-hdfc{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.client-icon-container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    border: 1px solid #b7b6b6;
+}
+.client-page-icon{
+    border: 1px solid #b7b6b6;
+    padding: 10px;
+    text-align: center;
+}
+.client-page-icon img{
+    width: 100%;
+    height: auto;
+}
+
+@media(min-width:100px) and (max-width:575px){
+    .clients-page-container {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .clients-page-bg-container {
+        width: 90%;
+        margin: auto;
+    }
+    .client-page-banner-container{
+        height: 230px;
+        margin-bottom: 30px;
+    }
+    .client-icon-container {
+        display: grid;
+        grid-template-columns: 100%;
+        border: 1px solid #b7b6b6;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px){
+    .clients-page-container {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .clients-page-bg-container {
+        width: 90%;
+        margin: auto;
+    }
+    .client-page-banner-container{
+        height: 230px;
+        margin-bottom: 30px;
+    }
+    .client-icon-container {
+        display: grid;
+        grid-template-columns: 100%;
+        border: 1px solid #b7b6b6;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .client-page-banner-container{
+        background-size: 100% 100%;
+        height: 260px;
+          margin-bottom: 50px;
+    }
+}

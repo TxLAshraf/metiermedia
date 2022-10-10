@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Metiermedia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- <script src="js/scrollIt.min.js"></script> -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+
+  <style>
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-slider {
+      position: relative;
+      display: block;
+      box-sizing: border-box;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      -khtml-user-select: none;
+      -ms-touch-action: pan-y;
+      touch-action: pan-y;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .slick-list {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
+    .slick-list:focus {
+      outline: none;
+    }
+
+    .slick-list.dragging {
+      cursor: pointer;
+      cursor: hand;
+    }
+
+    .slick-slider .slick-track,
+    .slick-slider .slick-list {
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      -o-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+
+    .slick-track {
+      position: relative;
+      top: 0;
+      left: 0;
+      display: block;
+    }
+
+    .slick-track:before,
+    .slick-track:after {
+      display: table;
+      content: "";
+    }
+
+    .slick-track:after {
+      clear: both;
+    }
+
+    .slick-loading .slick-track {
+      visibility: hidden;
+    }
+
+    .slick-slide {
+      display: none;
+      float: left;
+      height: 100%;
+      min-height: 1px;
+    }
+
+    [dir="rtl"] .slick-slide {
+      float: right;
+    }
+
+    .slick-slide img {
+      display: block;
+    }
+
+    .slick-slide.slick-loading img {
+      display: none;
+    }
+
+    .slick-slide.dragging img {
+      pointer-events: none;
+    }
+
+    .slick-initialized .slick-slide {
+      display: block;
+    }
+
+    .slick-loading .slick-slide {
+      visibility: hidden;
+    }
+
+    .slick-vertical .slick-slide {
+      display: block;
+      height: auto;
+      border: 1px solid transparent;
+    }
+
+    .slick-arrow.slick-hidden {
+      display: none;
+    }
+    .google-partner{
+      margin-left: 20px;
+    padding-top: 15px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <div class="navigation-container">
+
+    <nav id="nav" class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="logo-container">
+            <img src="images/logo.png">
+
+          </div>
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="clients.html">Clients</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="careers.html">Careers</a></li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+  
+
+  </div>
+
+
+
+  <div class="container-fluid">
+
+    <!-- bannner -->
+
+    <div class="banner-container">
+    </div>
+    <!-- bannner -->
+
+    <!-- about-us -->
+
+    <div class="about-us-container">
+
+      <div class="about-section">
+
+        <div class="img-container">
+          <img src="images/home1.png" alt="">
+        </div>
+        <div class="about-info-text">
+
+          <div class="about-heading">
+            <span>HOW FAR YOU CAN GO WITH US?</span>
+          </div>
+          <div class="about-text">
+            <span>
+              Our creative thinking and love for facts & figures make things happen. We are the head-scratchers,
+              plan-hatchers & executioners. We don’t believe in boasting, we believe in executing.We are here to listen
+              to you, here to ask you questions that matter, but more importantly here to deliver the results you are
+              looking for. Our team strategizes facts and figures according to your requirements and at the end of the
+              day, hand-over success on your table. We create concrete bridges for customer to reach you and explore the
+              ways for exceptional online results.
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- about-us -->
+
+    <!-- services -->
+
+    <div class="services-container-bg">
+
+      <div class="service-container">
+
+        <div class="services-heading">
+          <span>Service</span>
+        </div>
+
+        <div class="services-section">
+
+          <div class="services-info">
+            <div class="services-icon">
+              <img src="images/seo.png" alt="">
+            </div>
+            <div class="icon-heading">
+              <span>SEO</span>
+            </div>
+            <div class="services-text">
+              <span>We make SEO interesting by building a strategy that consists of accurate keywords to maintain a
+                consistent reach for your brand</span>
+            </div>
+            <div class="explore-btn">
+              <button class="btn-button">
+                Explore More
+              </button>
+            </div>
+          </div>
+
+          <div class="services-info">
+            <div class="services-icon">
+              <img src="images/social-media.png" alt="">
+            </div>
+            <div class="icon-heading">
+              <span>Social Media</span>
+            </div>
+            <div class="services-text">
+              <span>
+                We make the most of SEM tools to market your brand on various social media platforms which maintains
+                relevance and consistency
+              </span>
+            </div>
+            <div class="explore-btn">
+              <button class="btn-button">
+                Explore More
+              </button>
+            </div>
+          </div>
+
+          <div class="services-info">
+            <div class="services-icon">
+              <img src="images/ppc.png" alt="">
+            </div>
+            <div class="icon-heading">
+              <span>PPC</span>
+            </div>
+            <div class="services-text">
+              <span>By utilizing the most specific and effective keywords, PPC helps us in reaching the right target
+                audience to ensure wider reach for your brand </span>
+            </div>
+            <div class="explore-btn">
+              <button class="btn-button">
+                Explore More
+              </button>
+            </div>
+          </div>
+
+          <div class="services-info">
+            <div class="services-icon">
+              <img src="images/graphic-design.png" alt="">
+            </div>
+            <div class="icon-heading">
+              <span>Graphic Design</span>
+            </div>
+            <div class="services-text">
+              <span>
+                We create visuals that make the quote ‘Beauty is in the beholder’s eye’ as real as it could get. Be it
+                mailers or social media posts, we do it the best
+              </span>
+            </div>
+            <div class="explore-btn">
+              <button class="btn-button">
+                Explore More
+              </button>
+            </div>
+          </div>
+
+          <div class="services-info">
+            <div class="services-icon">
+              <img src="images/display-marketing.png" alt="">
+            </div>
+            <div class="icon-heading">
+              <span>Display Marketing</span>
+            </div>
+            <div class="services-text">
+              <span>With display marketing, we capitalise on the capability of various devices to increase the online
+                traffic for your brand effectively</span>
+            </div>
+            <div class="explore-btn">
+              <button class="btn-button">
+                Explore More
+              </button>
+            </div>
+          </div>
+
+          <div class="services-info">
+            <div class="services-icon">
+              <img src="images/webpage-creation.png" alt="">
+            </div>
+            <div class="icon-heading">
+              <span>Web Page Creation</span>
+            </div>
+            <div class="services-text">
+              <span>We design websites that are fluid and interactive to attract more attention and increase the reach
+                for your brand beyond your expectations</span>
+            </div>
+            <div class="explore-btn">
+              <button class="btn-button">
+                Explore More
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- services -->
+
+    <!-- clients -->
+
+
+    <div class="clients-container">
+      <div class="services-heading">
+        <span>Our Clients</span>
+      </div>
+      <section class="customer-logos slider">
+        <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg">
+        </div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg">
+        </div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg">
+        </div>
+        <div class="slide"><img
+            src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
+      </section>
+    </div>
+    <!-- clients -->
+
+
+    <!-- blog -->
+
+    <div class="blog-container" style="display: none;">
+
+      <div class="blog-headings">
+        <span>Blogs</span>
+      </div>
+
+      <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+
+              <img
+                src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp"
+                alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">26 December 2019</span>
+              <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+              <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
+                voluptate repellendus magni illo ea animi? </div>
+              <a href="#" class="blog-slider__button">READ MORE</a>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img
+                src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/jason-leung-798979-unsplash.webp"
+                alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">26 December 2019</span>
+              <div class="blog-slider__title">Lorem Ipsum Dolor2</div>
+              <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
+                voluptate repellendus magni illo ea animi?</div>
+              <a href="#" class="blog-slider__button">READ MORE</a>
+            </div>
+          </div>
+
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img
+                src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp"
+                alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">26 December 2019</span>
+              <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+              <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
+                voluptate repellendus magni illo ea animi?</div>
+              <a href="#" class="blog-slider__button">READ MORE</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="blog-slider__pagination"></div>
+      </div>
+
+
+    </div>
+
+    <!-- blog -->
+
+
+
+    <section class="accordian-container2" style="display: none;">
+
+      <div class="accordian-heading">
+        FAQs
+      </div>
+
+      <div class="ac">
+
+        <input class="ac-input" id="ac-1" name="ac-1" type="checkbox" />
+        <label class="ac-label" for="ac-1">What is Lorem Ipsum?</label>
+
+        <article class="ac-text">
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text</p>
+
+        </article>
+        <!--/ac-text-->
+
+      </div>
+      <!--/ac-->
+
+
+
+      <div class="ac">
+
+        <input class="ac-input" id="ac-2" name="ac-2" type="checkbox" />
+        <label class="ac-label" for="ac-2">What is Lorem Ipsum?</label>
+
+        <article class="ac-text">
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text</p>
+
+
+        </article>
+        <!--/ac-text-->
+
+      </div>
+      <!--/ac-->
+
+      <div class="ac">
+
+        <input class="ac-input" id="ac-3" name="ac-3" type="checkbox" />
+        <label class="ac-label" for="ac-3">What is Lorem Ipsum?</label>
+
+        <article class="ac-text">
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text</p>
+
+
+        </article>
+        <!--/ac-text-->
+
+      </div>
+      <!--/ac-->
+
+      <div class="ac">
+
+        <input class="ac-input" id="ac-4" name="ac-4" type="checkbox" />
+        <label class="ac-label" for="ac-4">What is Lorem Ipsum?</label>
+
+        <article class="ac-text">
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text</p>
+
+
+        </article>
+        <!--/ac-text-->
+
+      </div>
+      <!--/ac-->
+
+
+    </section>
+
+
+
+    <!-- accordian section -->
+
+    <!-- <div class="accordion-container">
+
+      <div class="accordian-heading">
+        <span>Frequently Asked Questions</span>
+      </div>
+
+
+      <div class="accordion-section">
+
+
+        <section class="faq-section">
+
+
+
+
+          <div class="">
+            <div class="faq" id="accordion">
+              <div class="card">
+                <div class="card-header" id="faqHeading-1">
+                  <div class="mb-0">
+                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true"
+                      data-aria-controls="faqCollapse-1">
+                      <span class="badge">1</span>What does HDFC Consultation Services do?
+                    </h5>
+                  </div>
+                </div>
+                <div id="faqCollapse-1" class="collapse in" aria-labelledby="faqHeading-1" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>We help educational institutions deliver the standard of education that student and parents
+                      strive for. HDFC Consultation Services provide institutions with academic/curriculum services,
+                      Faculty & Staff Trainings, Transport Management, Technology Management, Infrastructure Planning,
+                      Financial Planning, Human Resource Planning, and Affiliation Support & Planning that helps it to
+                      function smoothly within the given budget. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="faqHeading-2">
+                  <div class="mb-0">
+                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false"
+                      data-aria-controls="faqCollapse-2">
+                      <span class="badge">2</span> Why choose us?
+                    </h5>
+                  </div>
+                </div>
+                <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>We try to live up to the expectations set by the educational institutions and provide them with
+                      support in every step while planning for the future. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="faqHeading-3">
+                  <div class="mb-0">
+                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false"
+                      data-aria-controls="faqCollapse-3">
+                      <span class="badge">3</span> How would the services help an educational institution?
+                    </h5>
+                  </div>
+                </div>
+                <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>Our services help an educational institution set up and run its operations as per its goals and
+                      mission values. </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </div> -->
+    <!-- accordian section -->
+
+
+
+    <!-- footer -->
+
+    <div class="footer-container">
+
+
+      <div class="img-container footer-logo">
+        <img src="images/logo.png" alt="">
+      </div>
+
+      <!-- <div class="google-partner-img">
+        <img src="images/google-partners-logo.png" alt="">
+      </div> -->
+
+      <div class="footer-section">
+
+
+        <div class="footer1">
+
+
+          <div class="address">
+            <span>Address</span>
+          </div>
+          <div class="address-text">
+            <span>5B1/5B1-A, Gundecha Onclave, Kherani Road, Near Sakinaka Metro Station, Sakinaka, Andheri (East)
+              Mumbai – 400072.
+            </span>
+          </div>
+
+          <div class="tel">
+            <span>
+              Tel: +91 9821128065
+            </span>
+          </div>
+
+          <div class="tel">
+            Email : jobs@metiermedia.com
+          </div>
+
+
+
+
+        </div>
+
+
+
+
+        <div class="footers-sections3">
+          <div class="address">
+            <span>Quick Links</span>
+          </div>
+
+          <div class="footer-section3">
+
+            <div class="footer-sec">
+
+              <div class="quick-link1">
+               <a href="index.html"> Home</a>
+              </div>
+              <div class="quick-link1">
+                <a href="about-us.html"> About us</a>
+              </div>
+              <div class="quick-link1">
+               <a href="services.html">Services</a> 
+              </div>
+              <div class="quick-link1">
+               <a href="clients.html">Client</a> 
+              </div>
+
+            </div>
+            <div class="footer-sec">
+
+              <div class="quick-link1">
+              <a href="blog.html">Blog</a>  
+              </div>
+              <div class="quick-link1">
+               <a href="careers.html">Career</a> 
+              </div>
+              <div class="quick-link1">
+               <a href="contact-us.html">Contact Us</a> 
+              </div>
+
+            </div>
+
+     
+
+          </div>
+
+        </div>
+
+
+        <div class="footer-section2">
+
+
+
+          <!-- <div class="get-text">
+            <span>Get in touch with us</span>
+          </div>
+          <div class="icon">
+            <div class="img-container">
+              <img src="images/facebook.png" alt="">
+            </div>
+            <div class="img-container">
+              <img src="images/twitter.png" alt="">
+            </div>
+            <div class="img-container">
+              <img src="images/linkedin.png" alt="">
+            </div>
+            <div class="img-container">
+              <img src="images/youtube.png" alt="">
+            </div>
+          </div> -->
+
+          <div class="google-partner">
+            <a href="google-partner.html" target="_blank">
+            <img src="images/google-partners-logo.png" alt=""></a>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- footer -->
+
+
+  </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+  <script>
+    var swiper = new Swiper('.blog-slider', {
+      spaceBetween: 30,
+      effect: 'fade',
+      loop: true,
+      mousewheel: {
+        invert: false,
+      },
+      // autoHeight: true,
+      pagination: {
+        el: '.blog-slider__pagination',
+        clickable: true,
+      }
+    });
+
+
+    $(document).ready(function () {
+      $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 3
+          }
+        }]
+      });
+    });
+
+
+
+
+
+  </script>
+
+
+
+</body>
+
+</html>

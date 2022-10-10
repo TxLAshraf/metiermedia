@@ -1,0 +1,111 @@
+.blog-page-banner-container{
+    background-image: url(../images/blog-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 350px;
+    margin-bottom: 80px;
+}
+
+.blog-page-container{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 80px;
+}
+
+.blog-heading{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.blog-page-section-container{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 106px;
+    grid-row-gap: 60px;
+}
+.blog-page-text{
+    font-size: 15px;
+}
+.social-media{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.blog-section-blod-text{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.blog-page-section{
+    border: 1px solid;
+    padding: 20px 40px 20px;
+}
+.blog-page-section:hover{
+    background-color: #d70404;
+    color: #fff;
+}
+
+@media(min-width:100px) and (max-width:575px){
+    .blog-page-container {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+    .blog-page-section-container {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 35px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-column-gap: unset;
+        grid-row-gap: 20px;
+    }
+    .blog-page-section {
+        border: 1px solid;
+        padding: 10px 20px 10px;
+    }
+    .blog-page-banner-container{
+        height: 230px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px){
+    .blog-page-container {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+    .blog-page-section-container {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 35px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-column-gap: unset;
+        grid-row-gap: 20px;
+    }
+    .blog-page-section {
+        border: 1px solid;
+        padding: 10px 20px 10px;
+    }
+    .blog-page-banner-container{
+        height: 230px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+.blog-page-banner-container{
+    background-size: 100% 100%;
+    height: 260px;
+      margin-bottom: 50px;
+}
+
+}
